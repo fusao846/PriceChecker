@@ -69,8 +69,8 @@
       }
     },
     "cart": {
-      "key": "id",
-      "value": "shopping-bag-cta"
+      "key": "css",
+      "value": "button[aria-label='ショッピングバッグに追加する']"
     }
   },
   {

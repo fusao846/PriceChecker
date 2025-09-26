@@ -1,0 +1,273 @@
+[
+  {
+    "name": "BALENCIAGA",
+    "accept": {
+      "key": "id",
+      "value": "onetrust-accept-btn-handler"
+    },
+    "price": {
+      "key": "class",
+      "value": "c-price__value--current",
+      "attribute": {
+        "key": "innerText",
+        "value": "\u00a5"
+      }
+    },
+    "size_select": {
+      "key": "class",
+      "value": "c-customselect__option",
+      "attribute": {
+        "key": "innerText",
+        "value": "サイズを選ぶ"
+      }
+    },
+    "size": {
+      "parent": {
+        "type": "root"
+      },
+      "key": "class",
+      "value": "c-customselect__option"
+    },
+    "cart": {
+      "key": "class",
+      "value": "c-product__addtocart"
+    }
+  },
+  {
+    "name": "GUCCI",
+    "accept": {
+      "key": "id",
+      "value": "onetrust-accept-btn-handler"
+    },
+    "price": {
+      "key": "id",
+      "value": "markedDown_full_Price"
+    },
+    "size_select": {
+      "key": "id",
+      "value": "pdp-size-selector",
+      "attribute": {
+        "key": "innerText",
+        "value": "サイズを選ぶ"
+      }
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "id",
+        "value": "pdp-size-selector"
+      },
+      "key": "tag",
+      "value": "option",
+      "attribute": {
+        "key": "data-available",
+        "value": "true"
+      },
+      "except": {
+        "key": "innerText",
+        "value": "U"
+      }
+    },
+    "cart": {
+      "key": "id",
+      "value": "shopping-bag-cta"
+    }
+  },
+  {
+    "name": "BERLUTI",
+    "ngword":["入手不可"],
+    "accept": {
+      "key": "id",
+      "value": "onetrust-accept-btn-handler"
+    },
+    "price": {
+      "key": "class",
+      "value": "product-price"
+    },
+    "size_select": {
+      "key": "class",
+      "value": "size-guide-btn-block"
+    },
+    "size": {
+      "parent": {
+        "type": "root"
+      },
+      "key": "class",
+      "value": "product-in-stock"
+    },
+    "cart": {
+      "key": "id",
+      "value": "add-to-cart"
+    },
+    "cart2": {
+      "key": "id",
+      "value": "master-add-to-cart"
+    }
+  },
+  {
+    "name": "MooRER",
+    "accept": {
+      "key": "id",
+      "value": "onetrust-accept-btn-handler"
+    },
+    "accept2": {
+      "key": "class",
+      "value": "ob-modal_locale_redirect-confirm_cancel",
+      "attribute": {
+        "key": "innerTexxt",
+        "value": "Italy"
+      }
+    },
+    "price": {
+      "key": "class",
+      "value": "js-product_price-standard",
+      "euro": "true"
+    },
+    "size_select": {
+      "key": "class",
+      "value": "b-variation-title",
+      "attribute": {
+        "key": "innerText",
+        "value": "Size"
+      }
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "class",
+        "value": "b-swatches_size"
+      },
+      "key": "class",
+      "value": "b-swatches_size-item",
+      "except": {
+        "key": "title",
+        "value": "not available"
+      }
+    },
+    "cart": {
+      "key": "class",
+      "value": "js-add_to_cart"
+    }
+  },
+  {
+    "name": "MONCLER",
+    "accept": {
+      "key": "id",
+      "value": "onetrust-accept-btn-handler"
+    },
+    "price": {
+      "key": "class",
+      "value": "product-selection__name-price__price",
+      "euro": "true"
+    },
+    "size_select": {
+      "key": "id",
+      "value": "size-combobox",
+      "action": "click"
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "id",
+        "value": "size-selector-container"
+      },
+      "key": "class",
+      "value": "size-selector-line",
+      "except": {
+        "key": "class",
+        "value": "disabled"
+      }
+    },
+    "cart": {
+      "key": "class",
+      "value": "button--primary",
+      "attribute": {
+        "key": "innerText",
+        "value": "Aggiungi al carrello"
+      }
+    },
+    "cart2": {
+      "key": "class",
+      "value": "button--primary",
+      "attribute": {
+        "key": "innerText",
+        "value": "Add to Bag"
+      }
+    }
+  },
+  {
+    "name": "LOEWE",
+    "accept_button_caption": {
+      "value": "すべて同意する"
+    },
+    "price": {
+      "parent": {
+        "key": "xpath",
+        "value": "//*[normalize-space(text())='ショッピングバッグに追加']"
+      },
+      "parent2": {
+        "key": "xpath",
+        "value": "//*[normalize-space(text())='サイズを選択する']"
+      },
+      "key": "xpath",
+      "value": "./parent::*//div"
+    },
+    "size_select": {
+      "key": "xpath",
+      "value": "//p[text()='サイズ']",
+      "action": "click"
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "id",
+        "value": "sizes-tab"
+      },
+      "key": "tag",
+      "value": "button"
+    },
+    "cart": {
+      "key": "xpath",
+      "value": "//*[normalize-space(text())='ショッピングバッグに追加']"
+    },
+    "cart2": {
+      "key": "xpath",
+      "value": "//*[normalize-space(text())='サイズを選択する']"
+    }
+  },
+  {
+    "name": "MARGIELA",
+    "accept_button_caption": {
+      "value": "すべて受け入れる"
+    },
+    "price": {
+      "parent": {
+        "key": "class",
+        "value": "product-price"
+      },
+      "key": "class",
+      "value": "value",
+      "attribute": {
+        "key": "itemprop",
+        "value": "price"
+      }
+    },
+    "size_select": {
+      "key": "class",
+      "value": "select-size"
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "class",
+        "value": "select-size"
+      },
+      "key": "tag",
+      "value": "option"
+    },
+    "cart": {
+      "key": "class",
+      "value": "cart-and-ipay"
+    }
+  }
+]

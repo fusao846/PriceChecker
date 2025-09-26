@@ -1,2 +1,4 @@
 src/Log
 src/dist
+src/__pycache__
+src/**/*.xlsx

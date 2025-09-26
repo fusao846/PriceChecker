@@ -17,6 +17,8 @@ def getBy(key):
         return By.TAG_NAME
     if key == "xpath":
         return "xpath"
+    if key == "css":
+        return By.CSS_SELECTOR
     return None
 
 def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):

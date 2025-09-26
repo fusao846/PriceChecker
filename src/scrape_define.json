@@ -40,12 +40,12 @@
       "value": "onetrust-accept-btn-handler"
     },
     "price": {
-      "key": "id",
-      "value": "markedDown_full_Price"
+      "key": "css",
+      "value": "span[data-testid='product-price']"
     },
     "size_select": {
-      "key": "id",
-      "value": "pdp-size-selector",
+      "key": "css",
+      "value": "span[data-testid='select-size']",
       "attribute": {
         "key": "innerText",
         "value": "サイズを選ぶ"
@@ -75,7 +75,9 @@
   },
   {
     "name": "BERLUTI",
-    "ngword":["入手不可"],
+    "ngword": [
+      "入手不可"
+    ],
     "accept": {
       "key": "id",
       "value": "onetrust-accept-btn-handler"

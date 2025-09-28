@@ -122,6 +122,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
             price = priceNumber(price)
         # SIZE確認
         SZS = DEF["size_select"]
+        print(f"key: {SZS['key']} val:{SZS['value']}")
         sizeSelect = driver.find_elements(getBy(SZS["key"]), SZS["value"])
         
         print(f"sizeSelect len {len(sizeSelect)}")
@@ -129,7 +130,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
             print(sizeSelect[0].get_attribute("innerText"))
             if "action" in SZS:
                 sizeSelect[0].click()
-
+                scraper.sleep(3)
             SZ = DEF["size"]
             parent = driver
             if SZ["parent"]["type"] == "root":
@@ -140,6 +141,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                     parent = parentEles[0]
 
             optionEles = parent.find_elements(getBy(SZ["key"]), SZ["value"])
+            print(f"optionEles len {len(optionEles)}")
             sizeOption = []
             for option in optionEles:
                 if "attribute" in SZ:
@@ -176,6 +178,10 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                 size = 'OneSize'
             if size == "Misura":
                 size = 'OneSize'
+            if noZaiko == False:
+                return price, size, 5
+            else:
+                return price, size, 0
         CB = DEF["cart"]
         cartButton = driver.find_elements(getBy(CB["key"]), CB["value"])
         print(f"cartButton len {len(cartButton)}")

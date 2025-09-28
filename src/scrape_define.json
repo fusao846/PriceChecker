@@ -45,7 +45,8 @@
     },
     "size_select": {
       "key": "css",
-      "value": "span[data-testid='select-size']",
+      "value": "button[data-testid='select-size']",
+      "action": "click",
       "attribute": {
         "key": "innerText",
         "value": "サイズを選ぶ"
@@ -54,19 +55,15 @@
     "size": {
       "parent": {
         "type": "element",
-        "key": "id",
-        "value": "pdp-size-selector"
-      },
-      "key": "tag",
-      "value": "option",
-      "attribute": {
-        "key": "data-available",
-        "value": "true"
+        "key": "css",
+        "value": "ul[aria-label='サイズ']"
       },
       "except": {
-        "key": "innerText",
-        "value": "U"
-      }
+        "key": "aria-disabled",
+        "value": "true"
+      },
+      "key": "tag",
+      "value": "li"
     },
     "cart": {
       "key": "css",

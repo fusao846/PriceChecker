@@ -34,7 +34,7 @@ import ScrapeBALENCIAGA
 import ScrapePRADA
 import ScrapeGeneral
 
-VERSION = "v1.22"
+VERSION = "v1.23"
 # 0.95  2025/01/27 MIUMIU対応　Excelフォント設定　ファイル分割　スレッド制御　再開機能　URLチェック
 # 0.96  2025/01/28 BALENCIAGA対応　　MIUMIUバグ修正
 # 0.97  2025/01/28 PRADA対応
@@ -65,6 +65,7 @@ VERSION = "v1.22"
 # 1.20  2025/05/03 NGワード対応
 # 1.21  2025/06/29 GUCCIのサイズ　=NNcm 対応 
 # 1.22  2025/07/09 Acceptボタン例外処理の修正
+# 1.23  2025/09/29 GUCCI仕様変更対応
 
 def strtobool(b):
     if b.upper() == "TRUE":

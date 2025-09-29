@@ -223,12 +223,14 @@ def main():
                     start_found = True
                     start_row = r
             url = row[L].value
+            LOG.debug(f"URL:{url}")
             if start_found == True and url:
                 urls.append(url)
             if url == None or url == "":
                 break
             r = r + 1
         if len(urls) == 0:
+            LOG.debug("処理対象がありません")
             cg.setMessage("message", "処理対象がありません")
             return
         try:

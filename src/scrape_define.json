@@ -101,6 +101,14 @@
     "cart2": {
       "key": "id",
       "value": "master-add-to-cart"
+    },
+    "color-check": {
+      "key": "tag",
+      "value": "option",
+      "attribute": {
+        "key": "data-attrvalue",
+        "col": "F"
+      }
     }
   },
   {

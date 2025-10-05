@@ -33,39 +33,7 @@ import ScrapeMIUMIU
 import ScrapeBALENCIAGA
 import ScrapePRADA
 import ScrapeGeneral
-
-VERSION = "v1.23"
-# 0.95  2025/01/27 MIUMIU対応　Excelフォント設定　ファイル分割　スレッド制御　再開機能　URLチェック
-# 0.96  2025/01/28 BALENCIAGA対応　　MIUMIUバグ修正
-# 0.97  2025/01/28 PRADA対応
-# 0.98  2025/01/28 BERLUTI対応　汎用スクレイパー対応
-# 0.981 2025/01/29 サイズ改行、先頭０除去
-# 0.99  2025/01/29 MONCLER対応
-# 1.00  2025/01/30 完成版
-# 1.01  2025/01/31 UKバグ修正
-# 1.02  2025/01/31 SIZE 00 対応
-# 1.03  2025/02/01 Moncler 英語ボタン対応
-# 1.04  2025/02/02 LOEWE Size 1/2 対応 One size対応
-# 1.05  2025/02/02 LV size 5.0 -> 5 
-# 1.06  2025/02/02 LV Size 在庫なし対応 
-# 1.07  2025/02/05 GUCCI 在庫なし不具合対応 
-# 1.08  2025/02/11 BALENCIAGA サイズ　フランス⇒フランス/ヨーロッパ　対応 
-# 1.09  2025/02/13 LUIS VUITTON サイズ仕様変更対応（有償） 
-# 1.10  2025/02/16 LUIS VUITTON サイズ仕様変更対応 エラー対応 
-# 1.11  2025/02/17 LUIS VUITTON サイズ仕様変更対応 クラス取得不備対応 
-# 1.12  2025/02/18 LUIS VUITTON サイズ仕様変更対応 クラス取得不備対応 待機秒数調整
-# 1.13  2025/02/18 LUIS VUITTON 魔改造
-# 1.14  2025/02/18 LUIS VUITTON 待機時間調整
-# 1.15  2025/02/23 LUIS VUITTON エラー処理追加
-# 1.151 2025/02/23 LUIS VUITTON 2/20バージョンに戻す
-# 1.16  2025/04/01 MARGIELA 新規追加
-# 1.17  2025/04/06 LOEWE仕様変更対応
-# 1.18  2025/04/24 Chrome With拡張対応
-# 1.19  2025/04/25 サイズ例外対応
-# 1.20  2025/05/03 NGワード対応
-# 1.21  2025/06/29 GUCCIのサイズ　=NNcm 対応 
-# 1.22  2025/07/09 Acceptボタン例外処理の修正
-# 1.23  2025/09/29 GUCCI仕様変更対応
+import Version
 
 def strtobool(b):
     if b.upper() == "TRUE":
@@ -74,6 +42,8 @@ def strtobool(b):
         return False
 
 def priceNumber(text, euro=False):
+    if isinstance(text, int):
+        return text
     if euro == True:
         text = text.replace('.','')
         text = text.replace(',','.')
@@ -154,7 +124,7 @@ if getattr(sys, 'frozen', False):
     sys.stdout = open("log\\stdout.log", "w", encoding="utf-8")
     sys.stderr = open("log\\stderr.log", "w", encoding="utf-8")
 
-LOG.put(f"Start version={VERSION}")
+LOG.put(f"Start version={Version.VERSION}")
 LOG.debug('init')
 A=0
 B=1
@@ -333,7 +303,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko = ScrapeGeneral.scrape("BERLUTI", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko = ScrapeGeneral.scrape("BERLUTI", cg, scraper, url, LOG, concat_size, priceNumber, row[F].value)
                         success = True
                         break
                     except Exception as e:
@@ -558,7 +528,7 @@ def main():
         "grids":[
             {
                 "type":gr.LABEL,
-                "caption":f"価格チェックツール  {VERSION}"
+                "caption":f"価格チェックツール  {Version.VERSION}"
 #                "caption":"TEST"
             },
             {

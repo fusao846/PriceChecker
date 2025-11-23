@@ -1,0 +1,724 @@
+scraper1
+Using User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+-----------------------------
+https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 224400
+colorCheck len 1
+ attval TABACCO
+color found
+key: css val:button[data-select-id='size-1']
+sizeSelect len 2
+選択： サイズ
+optionEles len 34
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 06JP 25.0
+TTTTTT2 06
+[6]
+TTTTTT1 06.5JP 25.5
+TTTTTT2 06.5
+[6.5]
+TTTTTT1 07JP 25.5/26.0
+TTTTTT2 07
+[7]
+TTTTTT1 07.5JP 26.0
+TTTTTT2 07.5
+[7.5]
+TTTTTT1 08JP 26.5
+TTTTTT2 08
+[8]
+TTTTTT1 08.5JP 27.0
+TTTTTT2 08.5
+[8.5]
+TTTTTT1 09JP 27.0/27.5
+TTTTTT2 09
+[9]
+TTTTTT1 09.5JP 27.5
+TTTTTT2 09.5
+[9.5]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+concat size 6_6.5_7_7.5_8_8.5_9_9.5 False
+-----------------------------
+https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
+colorCheck len 0
+-----------------------------
+https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1 NOTFOUND
+colorCheck len 0
+-----------------------------
+https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
+colorCheck len 1
+ attval CACAO INTENSO
+color found
+key: css val:button[data-select-id='size-1']
+sizeSelect len 2
+選択： サイズ
+optionEles len 26
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 05.5JP 24.5/25.0
+TTTTTT2 05.5
+[5.5]
+TTTTTT1 06JP 25.0
+TTTTTT2 06
+[6]
+TTTTTT1 06.5JP 25.5
+TTTTTT2 06.5
+[6.5]
+TTTTTT1 07JP 25.5/26.0
+TTTTTT2 07
+[7]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 10JP 28.0
+TTTTTT2 10
+[10]
+TTTTTT1 10.5JP 28.5
+TTTTTT2 10.5
+[10.5]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+concat size 5.5_6_6.5_7_10_10.5 False
+-----------------------------
+https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1 149600
+colorCheck len 1
+ attval CACAO INTENSO
+color check 一致なし zaiko 0
+key: css val:button[data-select-id='size-1']
+sizeSelect len 2
+選択： サイズ
+optionEles len 26
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 05.5JP 24.5/25.0
+TTTTTT2 05.5
+[5.5]
+TTTTTT1 06JP 25.0
+TTTTTT2 06
+[6]
+TTTTTT1 06.5JP 25.5
+TTTTTT2 06.5
+[6.5]
+TTTTTT1 07JP 25.5/26.0
+TTTTTT2 07
+[7]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 10JP 28.0
+TTTTTT2 10
+[10]
+TTTTTT1 10.5JP 28.5
+TTTTTT2 10.5
+[10.5]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+concat size 5.5_6_6.5_7_10_10.5 False
+-----------------------------
+https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1 NOTFOUND
+colorCheck len 0
+-----------------------------
+https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1 NOTFOUND
+colorCheck len 0
+-----------------------------
+https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1 171600
+colorCheck len 1
+ attval CACAO INTENSO
+color found
+key: css val:button[data-select-id='size-1']
+sizeSelect len 2
+選択： サイズ
+optionEles len 29
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+attribute nashi
+except ari2
+SZEXP disabled size-selector-btn disabled
+attribute nashi
+except ari2
+SZEXP disabled trigger-notify-me-modal size-selector-btn size-selector-side-btn
+except nashi
+TTTTTT1 05JP 24.5
+TTTTTT2 05
+[5]
+TTTTTT1 05.5JP 24.5/25.0
+TTTTTT2 05.5
+[5.5]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 06.5JP 25.5
+TTTTTT2 06.5
+[6.5]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+TTTTTT1 在庫アラート
+TTTTTT2 在庫アラート
+[在庫アラート]
+concat size 5_5.5_6.5 False
+-----------------------------
+https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
+OPEN
+OPEN DONE
+OK RETURN
+URL PRICE https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1 715000
+colorCheck len 1
+ attval SOFT BROWN
+color found
+key: css val:button[data-select-id='size-1']
+sizeSelect len 0
+cartButton len 2
+att nashi
+class quitting
+class done
+thread done
+join done

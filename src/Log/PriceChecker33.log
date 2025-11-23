@@ -1,0 +1,42 @@
+[25/11/17 15:12:26]Start version=v1.25
+[25/11/17 15:12:26][DEBUG]init
+[25/11/17 15:12:31][DEBUG]OKClick
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
+[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
+[25/11/17 15:12:31][DEBUG]URL:None
+[25/11/17 15:12:33][DEBUG]scraper constructed 1
+[25/11/17 15:12:33][DEBUG]scrape BERLUTI start
+[25/11/17 15:12:37][DEBUG]open done OK
+[25/11/17 15:12:37][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 224400
+[25/11/17 15:12:44][DEBUG]scrape BERLUTI start
+[25/11/17 15:12:46][DEBUG]open done OK
+[25/11/17 15:12:50][DEBUG]https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
+[25/11/17 15:12:53][DEBUG]scrape BERLUTI start
+[25/11/17 15:12:55][DEBUG]open done OK
+[25/11/17 15:12:59][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1 NOTFOUND
+[25/11/17 15:13:01][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:04][DEBUG]open done OK
+[25/11/17 15:13:06][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
+[25/11/17 15:13:09][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:12][DEBUG]open done OK
+[25/11/17 15:13:14][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1 149600
+[25/11/17 15:13:18][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:19][DEBUG]open done OK
+[25/11/17 15:13:23][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1 NOTFOUND
+[25/11/17 15:13:25][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:27][DEBUG]open done OK
+[25/11/17 15:13:31][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1 NOTFOUND
+[25/11/17 15:13:33][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:36][DEBUG]open done OK
+[25/11/17 15:13:38][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1 171600
+[25/11/17 15:13:42][DEBUG]scrape BERLUTI start
+[25/11/17 15:13:43][DEBUG]open done OK
+[25/11/17 15:13:45][DEBUG]https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1 715000
+[25/11/17 15:45:48][DEBUG]exit

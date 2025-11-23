@@ -39,9 +39,11 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
             break 
     driver = scraper.get_driver()
     LOG.debug(f"scrape {name} start")
-    scraper.open(url)
-    LOG.debug("open done")
-
+    resOpen = scraper.open(url)
+    LOG.debug("open done " + str(resOpen))
+    if resOpen == "ERR_NAME_NOT_RESOLVED":
+        return "DNS ERROR", "OneSize", 0
+    
     if "accept_button_caption" in DEF:
         AC = DEF["accept_button_caption"]
         btns = driver.find_elements(By.TAG_NAME, 'button')

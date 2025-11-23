@@ -1,0 +1,11 @@
+{
+  "debug_mode": "true",
+  "chrome_x": 0,
+  "chrome_y": 400,
+  "error_wait": 600,
+  "lv_max": 350,
+  "lv_sleep": 1200,
+  "retry_max": 3,
+  "excel_font_name": "ＭＳ Ｐゴシック",
+  "excel_font_size": 11
+}

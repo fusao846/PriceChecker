@@ -80,6 +80,7 @@ def concat_size(textEles):
             t = re.sub(r'=\d+(?:\.\d+)?cm', '', t, flags=re.IGNORECASE)
             t = t.replace("IT","")
             t = t.replace("UK","")
+            t = t.replace("JP","")
             t = t.replace(".0", "")
             print(f"TTTTTT2 {t}")
             if t == "0" or t == "00":

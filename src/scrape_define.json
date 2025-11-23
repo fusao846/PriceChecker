@@ -81,21 +81,26 @@
     },
     "price": {
       "key": "class",
-      "value": "product-price"
+      "value": "prices"
     },
     "size_select": {
-      "key": "class",
-      "value": "size-guide-btn-block"
+      "key": "css",
+      "value": "button[data-select-id='size-1']",
+      "action": "click"
     },
     "size": {
       "parent": {
         "type": "root"
       },
       "key": "class",
-      "value": "product-in-stock"
+      "value": "size-selector-btn",
+      "except": {
+        "key": "class",
+        "value": "disabled"
+      }
     },
     "cart": {
-      "key": "id",
+      "key": "class",
       "value": "add-to-cart"
     },
     "cart2": {
@@ -103,10 +108,10 @@
       "value": "master-add-to-cart"
     },
     "color-check": {
-      "key": "tag",
-      "value": "option",
+      "key": "class",
+      "value": "swatch-image",
       "attribute": {
-        "key": "data-attrvalue",
+        "key": "title",
         "col": "F"
       }
     }

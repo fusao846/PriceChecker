@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import TimeoutException
 import os
 import json
+import re
 
 def getBy(key):
     if key == "id":
@@ -17,9 +18,11 @@ def getBy(key):
         return By.TAG_NAME
     if key == "xpath":
         return "xpath"
+    if key == "css":
+        return By.CSS_SELECTOR
     return None
 
-def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
+def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
     current = os.getcwd()
     DEFINE = []
     DEF = {}
@@ -88,12 +91,22 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                 att = priceEle.get_attribute(PR["attribute"]["key"])
                 if PR["attribute"]["value"] in att:
                     price = priceEle.get_attribute("innerText")
+                    price = re.sub(r'\D', '', price) 
+                    if price == "":
+                        price = 0
+                    else:
+                        price = int(price) 
                     priceFound = True
                     break
             if priceFound == False:
                 price = "NOTFOUND"
         else:
             price = priceEles[0].get_attribute("innerText")
+            price = re.sub(r'\D', '', price) 
+            if price == "":
+                price = 0
+            else:
+                price = int(price) 
     else:
         price = "NOTFOUND"
     
@@ -113,6 +126,25 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                 return "NOTFOUND", "OneSize", 0
 
     noZaiko = False
+
+    if "color-check" in DEF:
+        CC = DEF["color-check"]
+        colorCheck = driver.find_elements(getBy(CC["key"]), CC["value"])
+        print(f"colorCheck len {len(colorCheck)}")
+        if len(colorCheck) > 0:
+            attFound = False
+            for cc in colorCheck:
+                att = cc.get_attribute(CC["attribute"]["key"])
+                if att:
+                    print(f" attval {att.upper()}")
+                    if color.upper() == att.upper():                
+                        print("color found")
+                        attFound = True
+                        break
+            if attFound == False:
+                print("color check 一致なし zaiko 0")
+                noZaiko = True      
+
     if price != "NOTFOUND":
         if "euro" in PR:
             price = priceNumber(price, euro = True)
@@ -120,6 +152,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
             price = priceNumber(price)
         # SIZE確認
         SZS = DEF["size_select"]
+        print(f"key: {SZS['key']} val:{SZS['value']}")
         sizeSelect = driver.find_elements(getBy(SZS["key"]), SZS["value"])
         
         print(f"sizeSelect len {len(sizeSelect)}")
@@ -127,7 +160,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
             print(sizeSelect[0].get_attribute("innerText"))
             if "action" in SZS:
                 sizeSelect[0].click()
-
+                scraper.sleep(3)
             SZ = DEF["size"]
             parent = driver
             if SZ["parent"]["type"] == "root":
@@ -138,6 +171,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                     parent = parentEles[0]
 
             optionEles = parent.find_elements(getBy(SZ["key"]), SZ["value"])
+            print(f"optionEles len {len(optionEles)}")
             sizeOption = []
             for option in optionEles:
                 if "attribute" in SZ:
@@ -174,6 +208,10 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
                 size = 'OneSize'
             if size == "Misura":
                 size = 'OneSize'
+            if noZaiko == False:
+                return price, size, 5
+            else:
+                return price, size, 0
         CB = DEF["cart"]
         cartButton = driver.find_elements(getBy(CB["key"]), CB["value"])
         print(f"cartButton len {len(cartButton)}")
@@ -237,5 +275,6 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber):
         zaiko = 0
     #print(zaiko)
     #print(size)
+    
     return price, size, zaiko
 

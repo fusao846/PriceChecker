@@ -1,0 +1,4 @@
+src/Log/
+src/dist/
+src/build/
+src/*.xlsx

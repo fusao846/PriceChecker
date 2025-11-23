@@ -73,13 +73,25 @@ class Scraper:
         return self.user_agent
     def open(self, URL):
         try:
+            print("OPEN")
             self.driver.get(URL)
+            print("OPEN DONE")
         except Exception as e:
+            print("OPEN ERROR COUGHT")            
+            errMessage = str(e)
+            print(f"ERROR MESSAGE[{errMessage}]")
+            if "ERR_NAME_NOT_RESOLVED" in errMessage:
+                print("DNS ERROR FOUND, WILL RETURN")
+                return "ERR_NAME_NOT_RESOLVED"
             print(f"Error has occured at open URL {e}")
             print("driver reset")
             self.driver = webdriver.Chrome(service=self.service,options=self.options)
+            print("TRY OPEN AGAIN")
             self.driver.get(URL)
+            print("TRY OPEN AGAIN DONE")
         self.driver.implicitly_wait(default_wait)
+        print ("OK RETURN")
+        return "OK"
     def setWait(self, s):
         self.driver.implicitly_wait(s)
     def resetWait(self):

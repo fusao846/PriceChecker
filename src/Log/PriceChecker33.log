@@ -1,42 +1,235 @@
-[25/11/17 15:12:26]Start version=v1.25
-[25/11/17 15:12:26][DEBUG]init
-[25/11/17 15:12:31][DEBUG]OKClick
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
-[25/11/17 15:12:31][DEBUG]URL:https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
-[25/11/17 15:12:31][DEBUG]URL:None
-[25/11/17 15:12:33][DEBUG]scraper constructed 1
-[25/11/17 15:12:33][DEBUG]scrape BERLUTI start
-[25/11/17 15:12:37][DEBUG]open done OK
-[25/11/17 15:12:37][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 224400
-[25/11/17 15:12:44][DEBUG]scrape BERLUTI start
-[25/11/17 15:12:46][DEBUG]open done OK
-[25/11/17 15:12:50][DEBUG]https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
-[25/11/17 15:12:53][DEBUG]scrape BERLUTI start
-[25/11/17 15:12:55][DEBUG]open done OK
-[25/11/17 15:12:59][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1 NOTFOUND
-[25/11/17 15:13:01][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:04][DEBUG]open done OK
-[25/11/17 15:13:06][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
-[25/11/17 15:13:09][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:12][DEBUG]open done OK
-[25/11/17 15:13:14][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1 149600
-[25/11/17 15:13:18][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:19][DEBUG]open done OK
-[25/11/17 15:13:23][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1 NOTFOUND
-[25/11/17 15:13:25][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:27][DEBUG]open done OK
-[25/11/17 15:13:31][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1 NOTFOUND
-[25/11/17 15:13:33][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:36][DEBUG]open done OK
-[25/11/17 15:13:38][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1 171600
-[25/11/17 15:13:42][DEBUG]scrape BERLUTI start
-[25/11/17 15:13:43][DEBUG]open done OK
-[25/11/17 15:13:45][DEBUG]https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1 715000
-[25/11/17 15:45:48][DEBUG]exit
+[25/12/18 01:09:27]Start version=v1.25
+[25/12/18 01:09:27][DEBUG]init
+[25/12/18 01:09:33][DEBUG]OKClick
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/santaru-sukurittoreza-jippuronguu-oretto/SANTAL_NEO-JOUR-V2.html?dwvar_SANTAL__NEO-JOUR-V2_color=J12&to=175#viewtype=grid-view-small&sz=204&to=175&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/figyua-sukurittoreza-konpakutou-oretto/FIGURE_NEO-JOUR-V2.html?dwvar_FIGURE__NEO-JOUR-V2_color=J12&to=176#viewtype=grid-view-small&sz=204&to=176&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
+[25/12/18 01:09:34][DEBUG]URL:https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
+[25/12/18 01:09:34][DEBUG]URL:None
+[25/12/18 01:09:35][DEBUG]scraper constructed 1
+[25/12/18 01:09:35][DEBUG]scrape BERLUTI start
+[25/12/18 01:09:37][DEBUG]open done OK
+[25/12/18 01:09:37][DEBUG]https://www.berluti.com/ja-jp/santaru-sukurittoreza-jippuronguu-oretto/SANTAL_NEO-JOUR-V2.html?dwvar_SANTAL__NEO-JOUR-V2_color=J12&to=175#viewtype=grid-view-small&sz=204&to=175&start=1 174900
+[25/12/18 01:09:41][DEBUG]scrape BERLUTI start
+[25/12/18 01:09:43][DEBUG]open done OK
+[25/12/18 01:09:45][DEBUG]https://www.berluti.com/ja-jp/figyua-sukurittoreza-konpakutou-oretto/FIGURE_NEO-JOUR-V2.html?dwvar_FIGURE__NEO-JOUR-V2_color=J12&to=176#viewtype=grid-view-small&sz=204&to=176&start=1 124300
+[25/12/18 01:09:47][DEBUG]scrape BERLUTI start
+[25/12/18 01:09:49][DEBUG]open done OK
+[25/12/18 01:09:51][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 224400
+[25/12/18 01:09:53]retry count0 exception has occured Message: element click intercepted: Element <button type="button" class="modal-select-trigger btn btn-text" data-select-id="size-1" data-side-button-label="在庫アラート" data-toggle="modal" data-target="#sizeSelectorModal" data-pdp-interaction="2">...</button> is not clickable at point (1446, 448). Other element would receive the click: <div>...</div>
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633e519e8
+	0x7ff633e4f40f
+	0x7ff633e4c417
+	0x7ff633e4b338
+	0x7ff633e3ce7f
+	0x7ff633e71fda
+	0x7ff633e3c746
+	0x7ff633e9ac97
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:10:00][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:03][DEBUG]open done OK
+[25/12/18 01:10:06][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 224400
+[25/12/18 01:10:08]retry count1 exception has occured Message: element click intercepted: Element <button type="button" class="modal-select-trigger btn btn-text" data-select-id="size-1" data-side-button-label="在庫アラート" data-toggle="modal" data-target="#sizeSelectorModal" data-pdp-interaction="2">...</button> is not clickable at point (1446, 448). Other element would receive the click: <div>...</div>
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633e519e8
+	0x7ff633e4f40f
+	0x7ff633e4c417
+	0x7ff633e4b338
+	0x7ff633e3ce7f
+	0x7ff633e71fda
+	0x7ff633e3c746
+	0x7ff633e9ac97
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:10:15][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:18][DEBUG]open done OK
+[25/12/18 01:10:24][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 NOTFOUND
+[25/12/18 01:10:26][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:28][DEBUG]open done OK
+[25/12/18 01:10:28]retry count0 exception has occured Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633dc91b1
+	0x7ff633e797e6
+	0x7ff633e9a5c2
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:10:36][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:39][DEBUG]open done OK
+[25/12/18 01:10:39]retry count1 exception has occured Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df1465
+	0x7ff633e39d83
+	0x7ff633e71ee2
+	0x7ff633e6c500
+	0x7ff633e6b6f0
+	0x7ff633dbb325
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff633db9cb8
+	0x7ff63448efb8
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:10:47][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:49][DEBUG]open done OK
+[25/12/18 01:10:54][DEBUG]https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
+[25/12/18 01:10:56][DEBUG]scrape BERLUTI start
+[25/12/18 01:10:58][DEBUG]open done OK
+[25/12/18 01:11:02][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1 NOTFOUND
+[25/12/18 01:11:04][DEBUG]scrape BERLUTI start
+[25/12/18 01:11:07][DEBUG]open done OK
+[25/12/18 01:11:09][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
+[25/12/18 01:11:10]retry count0 exception has occured Message: element click intercepted: Element <button type="button" class="modal-select-trigger btn btn-text" data-select-id="size-1" data-side-button-label="在庫アラート" data-toggle="modal" data-target="#sizeSelectorModal" data-pdp-interaction="2">...</button> is not clickable at point (1446, 448). Other element would receive the click: <div>...</div>
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633e519e8
+	0x7ff633e4f40f
+	0x7ff633e4c417
+	0x7ff633e4b338
+	0x7ff633e3ce7f
+	0x7ff633e71fda
+	0x7ff633e3c746
+	0x7ff633e9ac97
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:11:18][DEBUG]scrape BERLUTI start
+[25/12/18 01:11:20][DEBUG]open done OK
+[25/12/18 01:11:23][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
+[25/12/18 01:11:24]retry count1 exception has occured Message: element click intercepted: Element <button type="button" class="modal-select-trigger btn btn-text" data-select-id="size-1" data-side-button-label="在庫アラート" data-toggle="modal" data-target="#sizeSelectorModal" data-pdp-interaction="2">...</button> is not clickable at point (1446, 448). Other element would receive the click: <div>...</div>
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633e519e8
+	0x7ff633e4f40f
+	0x7ff633e4c417
+	0x7ff633e4b338
+	0x7ff633e3ce7f
+	0x7ff633e71fda
+	0x7ff633e3c746
+	0x7ff633e9ac97
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+
+[25/12/18 01:11:32][DEBUG]scrape BERLUTI start
+[25/12/18 01:11:35][DEBUG]open done OK
+[25/12/18 01:11:38][DEBUG]https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1 149600
+[25/12/18 01:11:39]retry count2 exception has occured Message: element click intercepted: Element <button type="button" class="modal-select-trigger btn btn-text" data-select-id="size-1" data-side-button-label="在庫アラート" data-toggle="modal" data-target="#sizeSelectorModal" data-pdp-interaction="2">...</button> is not clickable at point (1446, 448). Other element would receive the click: <div>...</div>
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff634018895
+	0x7ff6340188f0
+	0x7ff633df165d
+	0x7ff633e519e8
+	0x7ff633e4f40f
+	0x7ff633e4c417
+	0x7ff633e4b338
+	0x7ff633e3ce7f
+	0x7ff633e71fda
+	0x7ff633e3c746
+	0x7ff633e9ac97
+	0x7ff633e3ac29
+	0x7ff633e3ba93
+	0x7ff6343305f0
+	0x7ff63432af30
+	0x7ff634349696
+	0x7ff634035d94
+	0x7ff63403ed3c
+	0x7ff634021fb4
+	0x7ff634022165
+	0x7ff634007e92
+	0x7fff0fd9e8d7
+	0x7fff11aac53c
+

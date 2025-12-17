@@ -152,6 +152,26 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
             price = priceNumber(price, euro = True)
         else:
             price = priceNumber(price)
+        # MODAL CLOSE
+        if "close_modal" in DEF:
+            print("close modal start")
+            CM = DEF["close_modal"]
+            modalEles = driver.find_elements(getBy(CM["key"]), CM["value"])
+            print(f"modalEles len {len(modalEles)}")
+            for md in modalEles:
+                try:
+                    if "action" in CM:
+                        if "attribute" in CM:
+                            att = md.find_element(getBy(CM["attribute"]["key"]), CM["attribute"]["value"])
+                            if att.is_enabled():
+                                att.click()
+                                print("modal closed done")
+                                scraper.sleep(2)
+                                break
+                except Exception as e:
+                    print('continue modal')
+                    continue
+                
         # SIZE確認
         SZS = DEF["size_select"]
         print(f"key: {SZS['key']} val:{SZS['value']}")

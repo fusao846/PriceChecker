@@ -75,6 +75,15 @@
     "ngword": [
       "入手不可"
     ],
+    "close_modal": {
+      "key": "class",
+      "value": "modal-header",
+      "action": "click",
+      "attribute": {
+        "key": "css",
+        "value": "button[aria-label='タブを閉じる']"
+      }
+    },
     "accept": {
       "key": "id",
       "value": "onetrust-accept-btn-handler"

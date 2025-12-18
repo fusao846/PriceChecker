@@ -82,7 +82,8 @@
       "attribute": {
         "key": "css",
         "value": "button[aria-label='タブを閉じる']"
-      }
+      },
+      "one_time": true
     },
     "accept": {
       "key": "id",

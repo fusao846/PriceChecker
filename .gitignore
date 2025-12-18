@@ -1,4 +1,4 @@
-src/Log
+src/Log/*.log
 src/dist
 src/__pycache__
 src/**/*.xlsx

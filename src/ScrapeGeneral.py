@@ -22,7 +22,7 @@ def getBy(key):
         return By.CSS_SELECTOR
     return None
 
-def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
+def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', berluty_modal_done = False):
     current = os.getcwd()
     DEFINE = []
     DEF = {}
@@ -42,7 +42,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
     resOpen = scraper.open(url)
     LOG.debug("open done " + str(resOpen))
     if resOpen == "ERR_NAME_NOT_RESOLVED":
-        return "DNS ERROR", "OneSize", 0
+        return "DNS ERROR", "OneSize", 0, berluty_modal_done
     
     if "accept_button_caption" in DEF:
         AC = DEF["accept_button_caption"]
@@ -125,7 +125,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
         for ngw in ngwords:
             if ngw in bodyText:
                 print(f"ngw {ngw} found will retrun soldout")
-                return "NOTFOUND", "OneSize", 0
+                return "NOTFOUND", "OneSize", 0, berluty_modal_done
 
     noZaiko = False
 
@@ -154,23 +154,27 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
             price = priceNumber(price)
         # MODAL CLOSE
         if "close_modal" in DEF:
-            print("close modal start")
-            CM = DEF["close_modal"]
-            modalEles = driver.find_elements(getBy(CM["key"]), CM["value"])
-            print(f"modalEles len {len(modalEles)}")
-            for md in modalEles:
-                try:
-                    if "action" in CM:
-                        if "attribute" in CM:
-                            att = md.find_element(getBy(CM["attribute"]["key"]), CM["attribute"]["value"])
-                            if att.is_enabled():
-                                att.click()
-                                print("modal closed done")
-                                scraper.sleep(2)
-                                break
-                except Exception as e:
-                    print('continue modal')
-                    continue
+            if DEF["close_modal"]["one_time"] == True and berluty_modal_done == True:
+                print("modal one time skip")
+            else:        
+                print("close modal start")
+                CM = DEF["close_modal"]
+                modalEles = driver.find_elements(getBy(CM["key"]), CM["value"])
+                print(f"modalEles len {len(modalEles)}")
+                for md in modalEles:
+                    try:
+                        if "action" in CM:
+                            if "attribute" in CM:
+                                att = md.find_element(getBy(CM["attribute"]["key"]), CM["attribute"]["value"])
+                                if att.is_enabled():
+                                    att.click()
+                                    print("modal closed done")
+                                    scraper.sleep(2)
+                                    berluty_modal_done = True
+                                    break
+                    except Exception as e:
+                        print('continue modal')
+                        continue
                 
         # SIZE確認
         SZS = DEF["size_select"]
@@ -231,9 +235,9 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
             if size == "Misura":
                 size = 'OneSize'
             if noZaiko == False:
-                return price, size, 5
+                return price, size, 5, berluty_modal_done
             else:
-                return price, size, 0
+                return price, size, 0, berluty_modal_done
         CB = DEF["cart"]
         cartButton = driver.find_elements(getBy(CB["key"]), CB["value"])
         print(f"cartButton len {len(cartButton)}")
@@ -298,5 +302,5 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = ''):
     #print(zaiko)
     #print(size)
     
-    return price, size, zaiko
+    return price, size, zaiko, berluty_modal_done
 

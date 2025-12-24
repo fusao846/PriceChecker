@@ -1,39 +1,9 @@
-[25/12/18 17:58:52]Start version=v1.26
-[25/12/18 17:58:52][DEBUG]init
-[25/12/18 17:58:58][DEBUG]OKClick
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/santaru-sukurittoreza-jippuronguu-oretto/SANTAL_NEO-JOUR-V2.html?dwvar_SANTAL__NEO-JOUR-V2_color=J12&to=175#viewtype=grid-view-small&sz=204&to=175&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/figyua-sukurittoreza-konpakutou-oretto/FIGURE_NEO-JOUR-V2.html?dwvar_FIGURE__NEO-JOUR-V2_color=J12&to=176#viewtype=grid-view-small&sz=204&to=176&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
-[25/12/18 17:58:58][DEBUG]URL:https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
-[25/12/18 17:58:58][DEBUG]URL:None
-[25/12/18 17:59:01]Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x7ff634018895
-	0x7ff6340188f0
-	0x7ff633df165d
-	0x7ff633e30050
-	0x7ff633e2b7dd
-	0x7ff633e80186
-	0x7ff633e7fa06
-	0x7ff633e3ac29
-	0x7ff633e3ba93
-	0x7ff6343305f0
-	0x7ff63432af30
-	0x7ff634349696
-	0x7ff634035d94
-	0x7ff63403ed3c
-	0x7ff634021fb4
-	0x7ff634022165
-	0x7ff634007e92
-	0x7fff0fd9e8d7
-	0x7fff11aac53c
-
-[25/12/18 17:59:24][DEBUG]exit
+[25/12/24 23:15:41]Start version=v1.27
+[25/12/24 23:15:41][DEBUG]init
+[25/12/24 23:15:55][DEBUG]OKClick
+[25/12/24 23:15:55][DEBUG]URL:https://www.acnestudios.com/jp/ja/logo-hooded-sweater-pale-grey-melange/CI0159-92H.html?g=man
+[25/12/24 23:15:55][DEBUG]URL:None
+[25/12/24 23:15:57][DEBUG]scraper constructed 1
+[25/12/24 23:15:57][DEBUG]scrape ACNE start
+[25/12/24 23:15:58][DEBUG]open done OK
+[25/12/24 23:15:59][DEBUG]https://www.acnestudios.com/jp/ja/logo-hooded-sweater-pale-grey-melange/CI0159-92H.html?g=man 91300

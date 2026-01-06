@@ -231,6 +231,9 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
                                 print("except nashi")
                         else:
                             sizeOption.append(option)
+                    else:
+                        print("except nashi2")
+                        sizeOption.append(option)
             if len(sizeOption) > 0:
                 size, noZaiko = concat_size(sizeOption)
                 print(f"concat size {size} {noZaiko}")

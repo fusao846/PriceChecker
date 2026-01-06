@@ -206,26 +206,33 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
                     if att == SZ["attribute"]["value"]:
                         if "except" in SZ:
                             print("except ari")
-                            exp = option.get_attribute(SZ["except"]["key"]).strip()
-                            print(f"SZEXP {SZ["except"]["value"] } {exp}")
-                            if SZ["except"]["value"] in exp:
-                                None
-                            else:
-                                sizeOption.append(option)
+                            expEle = option.get_attribute(SZ["except"]["key"])
+                            if expEle is not None:
+                                exp = expEle.strip()
+                                print(f"SZEXP {SZ["except"]["value"] } {exp}")
+                                if SZ["except"]["value"] in exp:
+                                    None
+                                else:
+                                    sizeOption.append(option)
                         else:
                             print("except nashi")
                 else:
                     print("attribute nashi")
                     if "except" in SZ:
                         print("except ari2")
-                        exp = option.get_attribute(SZ["except"]["key"]).strip()
-                        print(f"SZEXP {SZ["except"]["value"] } {exp}")
-                        if SZ["except"]["value"] in exp:
-                            None
+                        expEle = option.get_attribute(SZ["except"]["key"])
+                        if expEle is not None:
+                            exp = expEle.strip()
+                            print(f"SZEXP {SZ["except"]["value"] } {exp}")
+                            if SZ["except"]["value"] in exp:
+                                None
+                            else:
+                                sizeOption.append(option)
+                                print("except nashi")
                         else:
                             sizeOption.append(option)
-                            print("except nashi")
                     else:
+                        print("except nashi2")
                         sizeOption.append(option)
             if len(sizeOption) > 0:
                 size, noZaiko = concat_size(sizeOption)

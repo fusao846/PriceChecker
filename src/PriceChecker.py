@@ -385,6 +385,27 @@ def main():
                     cg.setMessage("message", "エラーが発生しました　中断します")
                     return
 
+            # ACNE
+            if (url.startswith("https://www.acnestudios.com")):
+                success = False
+                for retry_count in range(CONFIG["retry_max"]):
+                    if STOP_FLAG.is_set():
+                        return
+                    try:
+                        price, size, zaiko, fil = ScrapeGeneral.scrape("ACNE", cg, scraper, url, LOG, concat_size, priceNumber)
+                        print(f"{price} {size} {zaiko}")
+                        success = True
+                        break
+                    except Exception as e:
+                        LOG.put(f"retry count{retry_count} exception has occured {e}")
+                        print(f"retry count{retry_count} exception has occured {e}")
+                        traceback.print_exc() 
+                        if scraper:
+                            scraper.quit()
+                        scraper = Scraper(f"{pcheck}\\Chrome2", x=CONFIG["chrome_x"], y=CONFIG["chrome_y"])
+                if success == False:
+                    cg.setMessage("message", "エラーが発生しました　中断します")
+                    return
 
             # PRADA
             if (url.startswith("https://www.prada.com/")):

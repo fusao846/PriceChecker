@@ -291,5 +291,40 @@
       "key": "class",
       "value": "cart-and-ipay"
     }
+  },
+  {
+    "name": "ACNE",
+    "accept_button_caption": {
+      "value": "すべての COOKIE を受け入れる"
+    },
+    "price": {
+      "parent": {
+        "key": "class",
+        "value": "price"
+      },
+      "key": "class",
+      "value": "value"
+    },
+    "size_select": {
+      "key": "class",
+      "value": "variations__grid"
+    },
+    "size": {
+      "parent": {
+        "type": "element",
+        "key": "xpath",
+        "value": "//div[@data-module='productDefinition']"
+      },
+      "key": "tag",
+      "value": "button",
+      "except": {
+        "key": "data-availability-site",
+        "value": "false"
+      }
+    },
+    "cart": {
+      "key": "id",
+      "value": "addToCartAndNotifyMeTrigger"
+    }
   }
 ]

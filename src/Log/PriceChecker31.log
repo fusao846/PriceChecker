@@ -1,14 +1,21 @@
-[26/01/05 14:24:30]Start version=v1.27
-[26/01/05 14:24:30][DEBUG]init
-[26/01/05 14:24:37][DEBUG]OKClick
-[26/01/05 14:24:37][DEBUG]URL:https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/%E8%B2%A1%E5%B8%83%EF%BC%86%E5%B0%8F%E7%89%A9/%E3%83%90%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%89-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88_%E3%82%BD%E3%83%95%E3%83%88%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%95_/C660302X05-4160.html
-[26/01/05 14:24:37][DEBUG]URL:https://www.loewe.com/jap/ja/%E3%82%A6%E3%82%A3%E3%83%A1%E3%83%B3%E3%82%BA/fw-womens-precollection/%E3%83%90%E3%83%AC%E3%82%A8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC-2.0_%E3%83%8A%E3%82%A4%E3%83%AD%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%95_/LBR2282X13-6538.html
-[26/01/05 14:24:37][DEBUG]URL:None
-[26/01/05 14:24:40][DEBUG]scraper constructed 1
-[26/01/05 14:24:40][DEBUG]scrape LOEWE start
-[26/01/05 14:24:43][DEBUG]open done OK
-[26/01/05 14:24:47][DEBUG]https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/%E8%B2%A1%E5%B8%83%EF%BC%86%E5%B0%8F%E7%89%A9/%E3%83%90%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%89-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88_%E3%82%BD%E3%83%95%E3%83%88%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%95_/C660302X05-4160.html 69300
-[26/01/05 14:24:50][DEBUG]scrape LOEWE start
-[26/01/05 14:24:53][DEBUG]open done OK
-[26/01/05 14:24:57][DEBUG]https://www.loewe.com/jap/ja/%E3%82%A6%E3%82%A3%E3%83%A1%E3%83%B3%E3%82%BA/fw-womens-precollection/%E3%83%90%E3%83%AC%E3%82%A8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC-2.0_%E3%83%8A%E3%82%A4%E3%83%AD%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%95_/LBR2282X13-6538.html 119900
-[26/01/05 14:28:33][DEBUG]exit
+[26/01/12 22:31:03]Start version=v1.28
+[26/01/12 22:31:03][DEBUG]init
+[26/01/12 22:31:19][DEBUG]OKClick
+[26/01/12 22:31:20][DEBUG]URL:https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man
+[26/01/12 22:31:20][DEBUG]URL:https://www.acnestudios.com/jp/ja/fringe-wool-scarf---skinny-black/CA0218-900.html?g=man
+[26/01/12 22:31:20][DEBUG]URL:None
+[26/01/12 22:31:24][DEBUG]scraper constructed 1
+[26/01/12 22:31:24][DEBUG]scrape ACNE start
+[26/01/12 22:31:28][DEBUG]open done OK
+[26/01/12 22:31:29][DEBUG]https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man 56100
+[26/01/12 22:31:46][DEBUG]OKClick
+[26/01/12 22:31:46][DEBUG]URL:https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man
+[26/01/12 22:31:46][DEBUG]URL:https://www.acnestudios.com/jp/ja/fringe-wool-scarf---skinny-black/CA0218-900.html?g=man
+[26/01/12 22:31:46][DEBUG]URL:None
+[26/01/12 22:31:47][DEBUG]scraper constructed 1
+[26/01/12 22:31:47][DEBUG]scrape ACNE start
+[26/01/12 22:31:50][DEBUG]open done OK
+[26/01/12 22:31:51][DEBUG]https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man 56100
+[26/01/12 22:31:53][DEBUG]scrape ACNE start
+[26/01/12 22:31:55][DEBUG]open done OK
+[26/01/12 22:31:56][DEBUG]https://www.acnestudios.com/jp/ja/fringe-wool-scarf---skinny-black/CA0218-900.html?g=man 26400

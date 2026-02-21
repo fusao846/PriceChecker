@@ -22,7 +22,7 @@ def getBy(key):
         return By.CSS_SELECTOR
     return None
 
-def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', berluty_modal_done = False):
+def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', berluty_modal_done = False, LOEWE_wait_sec = 0):
     current = os.getcwd()
     DEFINE = []
     DEF = {}
@@ -85,7 +85,17 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
                     parent = driver.find_elements(getBy(PR["parent2"]["key"]), PR["parent2"]["value"])[0]
                 else:
                     print('parent2 0')
-    priceEles = parent.find_elements(getBy(PR["key"]), PR["value"])
+    
+    wait = WebDriverWait(parent, 10)  # 最大15秒待機（適宜調整）
+
+    try:
+        priceEles = wait.until(
+            EC.presence_of_all_elements_located((getBy(PR["key"]), PR["value"]))
+        )
+    except TimeoutException:
+        priceEles = []  # 15秒経っても見つからなければ空リストで返す
+
+    # priceEles = parent.find_elements(getBy(PR["key"]), PR["value"])
     if len(priceEles) > 0:
         if "attribute" in PR:
             priceFound = False

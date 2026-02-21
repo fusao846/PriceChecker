@@ -241,7 +241,7 @@ def main():
                         return
 
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("LOEWE", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil = ScrapeGeneral.scrape("LOEWE", cg, scraper, url, LOG, concat_size, priceNumber,"","",CONFIG["LOEWE_wait_sec"])
                         success = True
                         break
                     except Exception as e:

@@ -324,7 +324,11 @@
     },
     "cart": {
       "key": "id",
-      "value": "addToCartAndNotifyMeTrigger"
+      "value": "addToCartAndNotifyMeTrigger",
+      "attribute": {
+        "key": "innerText",
+        "value": "カートに追加"
+      }
     }
   }
 ]

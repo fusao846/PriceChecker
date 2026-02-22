@@ -86,14 +86,14 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
                 else:
                     print('parent2 0')
     
-    wait = WebDriverWait(parent, 10)  # 最大15秒待機（適宜調整）
+    wait = WebDriverWait(parent, LOEWE_wait_sec)  # （適宜調整）
 
     try:
         priceEles = wait.until(
             EC.presence_of_all_elements_located((getBy(PR["key"]), PR["value"]))
         )
     except TimeoutException:
-        priceEles = []  # 15秒経っても見つからなければ空リストで返す
+        priceEles = []  
 
     # priceEles = parent.find_elements(getBy(PR["key"]), PR["value"])
     if len(priceEles) > 0:

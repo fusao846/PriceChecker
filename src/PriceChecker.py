@@ -140,6 +140,8 @@ J=9
 K=10
 L=11
 M=12
+N=13
+O=14
 
 DEBUGGING=False
 DEB = False
@@ -167,6 +169,7 @@ def main():
         #print('★OKClick')
         cg.setMessage("message", "")
         LOG.debug("OKClick")
+        stopwatch = 0
 
         try:
             shutil.rmtree(f"{pcheck}\\{CHROME_FOLDER}")
@@ -188,7 +191,7 @@ def main():
         start_row = 0
         r = 2
         start_found = False
-        for row in sheet.iter_rows(min_row=2,max_col=12,values_only=False):
+        for row in sheet.iter_rows(min_row=2,max_col=15,values_only=False):
             if row[H].value == None or row[H].value == "":
                 if start_found == False:
                     start_found = True
@@ -222,7 +225,7 @@ def main():
         berluty_modal_done = False
 
         # メイン処理
-        for row in sheet.iter_rows(min_row=start_row,max_col=12,values_only=False):
+        for row in sheet.iter_rows(min_row=start_row,max_col=15,values_only=False):
             if STOP_FLAG.is_set():
                 return
             url = row[L].value
@@ -241,7 +244,7 @@ def main():
                         return
 
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("LOEWE", cg, scraper, url, LOG, concat_size, priceNumber,"","",CONFIG["LOEWE_wait_sec"])
+                        price, size, zaiko, fil, time_taken, picture_count = ScrapeGeneral.scrape("LOEWE", cg, scraper, url, LOG, concat_size, priceNumber,"","",CONFIG["LOEWE_wait_sec"])
                         success = True
                         break
                     except Exception as e:
@@ -501,6 +504,9 @@ def main():
             row[H].alignment = Alignment(horizontal="left")
 
             row[K].value = zaiko
+            #row[N].value = time_taken
+            #row[O].value = picture_count
+            
             cg.set_progress("progress1", n)
             cg.update_idletasks()
             try:

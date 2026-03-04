@@ -220,19 +220,11 @@
   {
     "name": "LOEWE",
     "accept_button_caption": {
-      "value": "すべて同意する"
+      "value": "すべての Cookie を受け入れる"
     },
     "price": {
-      "parent": {
-        "key": "xpath",
-        "value": "//*[normalize-space(text())='ショッピングバッグに追加']"
-      },
-      "parent2": {
-        "key": "xpath",
-        "value": "//*[normalize-space(text())='サイズを選択する']"
-      },
       "key": "xpath",
-      "value": "./parent::*//div"
+      "value": "//*[normalize-space(text())='ショッピングバッグに追加']"
     },
     "size_select": {
       "key": "xpath",

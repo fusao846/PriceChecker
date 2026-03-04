@@ -8,6 +8,7 @@ from selenium.common.exceptions import TimeoutException
 import os
 import json
 import re
+import time
 
 def getBy(key):
     if key == "id":
@@ -42,7 +43,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
     resOpen = scraper.open(url)
     LOG.debug("open done " + str(resOpen))
     if resOpen == "ERR_NAME_NOT_RESOLVED":
-        return "DNS ERROR", "OneSize", 0, berluty_modal_done
+        return "DNS ERROR", "OneSize", 0, berluty_modal_done,end-start,len(pictures)
     
     if "accept_button_caption" in DEF:
         AC = DEF["accept_button_caption"]
@@ -86,16 +87,27 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
                 else:
                     print('parent2 0')
     
+    driver.implicitly_wait(0)
     wait = WebDriverWait(parent, LOEWE_wait_sec)  # （適宜調整）
-
+    start = time.perf_counter()
     try:
         priceEles = wait.until(
             EC.presence_of_all_elements_located((getBy(PR["key"]), PR["value"]))
         )
     except TimeoutException:
         priceEles = []  
+    finally:
+        driver.implicitly_wait(2)
+    end = time.perf_counter()
+    mains = driver.find_elements(By.TAG_NAME, 'main')
 
-    # priceEles = parent.find_elements(getBy(PR["key"]), PR["value"])
+    pictures = []
+    if len(mains) > 0:
+        pictures = mains[0].find_elements(By.TAG_NAME, 'picture')
+
+    print(f"ＤＥＢＵＧＧＧ　{(end - start) * 1000.0}秒　画像数{len(pictures)}")
+
+    priceEles = parent.find_elements(getBy(PR["key"]), PR["value"])
     if len(priceEles) > 0:
         if "attribute" in PR:
             priceFound = False
@@ -124,7 +136,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
     
 
     LOG.debug(f"{url} {price}")
-    print(f"URL PRICE {url} {price}")
+    #print(f"URL PRICE {url} {price}")
     
     zaiko = 0
     size = "OneSize"
@@ -135,7 +147,7 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
         for ngw in ngwords:
             if ngw in bodyText:
                 print(f"ngw {ngw} found will retrun soldout")
-                return "NOTFOUND", "OneSize", 0, berluty_modal_done
+                return "NOTFOUND", "OneSize", 0, berluty_modal_done,end-start,len(pictures)
 
     noZaiko = False
 
@@ -252,9 +264,9 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
             if size == "Misura":
                 size = 'OneSize'
             if noZaiko == False:
-                return price, size, 5, berluty_modal_done
+                return price, size, 5, berluty_modal_done,end-start,len(pictures)
             else:
-                return price, size, 0, berluty_modal_done
+                return price, size, 0, berluty_modal_done,end-start,len(pictures)
         CB = DEF["cart"]
         cartButton = driver.find_elements(getBy(CB["key"]), CB["value"])
         print(f"cartButton len {len(cartButton)}")
@@ -319,5 +331,5 @@ def scrape(name, cg, scraper, url, LOG, concat_size, priceNumber, color = '', be
     #print(zaiko)
     #print(size)
     
-    return price, size, zaiko, berluty_modal_done
+    return price, size, zaiko, berluty_modal_done,end-start,len(pictures)
 

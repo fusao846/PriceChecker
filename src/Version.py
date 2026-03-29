@@ -1,4 +1,4 @@
-VERSION = "v1.30"
+VERSION = "v1.31"
 # 0.95  2025/01/27 MIUMIU対応　Excelフォント設定　ファイル分割　スレッド制御　再開機能　URLチェック
 # 0.96  2025/01/28 BALENCIAGA対応　　MIUMIUバグ修正
 # 0.97  2025/01/28 PRADA対応
@@ -37,3 +37,5 @@ VERSION = "v1.30"
 # 1.28  2026/01/01 LOEWE Size仕様変更対応
 # 1.29  2026/02/18 LOEWE wait対応
 # 1.30  2026/03/02 LOEWE Price対応
+# 1.30  2026/03/02 LOEWE Price対応
+# 1.31  2026/03/30 general戻り値Bug対応

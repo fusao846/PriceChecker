@@ -265,7 +265,7 @@ def main():
                         return
                     try:
                         #price, size, zaiko = ScrapeGUCCI.scrapeGUCCI(cg, scraper, url, LOG, concat_size, priceNumber)
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("GUCCI", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("GUCCI", cg, scraper, url, LOG, concat_size, priceNumber)
                         success = True
                         break
                     except Exception as e:
@@ -287,7 +287,7 @@ def main():
                         return
                     try:
                         #price, size, zaiko = ScrapeBALENCIAGA.scrapeBALENCIAGA(cg, scraper, url, LOG, concat_size, priceNumber)
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("BALENCIAGA", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("BALENCIAGA", cg, scraper, url, LOG, concat_size, priceNumber)
                         success = True
                         break
                     except Exception as e:
@@ -309,7 +309,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko, berluty_modal_done = ScrapeGeneral.scrape("BERLUTI", cg, scraper, url, LOG, concat_size, priceNumber, row[F].value, berluty_modal_done)
+                        price, size, zaiko, berluty_modal_done, fil2, fil3 = ScrapeGeneral.scrape("BERLUTI", cg, scraper, url, LOG, concat_size, priceNumber, row[F].value, berluty_modal_done)
                         success = True
                         break
                     except Exception as e:
@@ -330,7 +330,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("MooRER", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("MooRER", cg, scraper, url, LOG, concat_size, priceNumber)
                         success = True
                         break
                     except Exception as e:
@@ -351,7 +351,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("MONCLER", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("MONCLER", cg, scraper, url, LOG, concat_size, priceNumber)
                         print(f"{price} {size} {zaiko}")
                         success = True
                         break
@@ -373,7 +373,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("MARGIELA", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("MARGIELA", cg, scraper, url, LOG, concat_size, priceNumber)
                         print(f"{price} {size} {zaiko}")
                         success = True
                         break
@@ -395,7 +395,7 @@ def main():
                     if STOP_FLAG.is_set():
                         return
                     try:
-                        price, size, zaiko, fil = ScrapeGeneral.scrape("ACNE", cg, scraper, url, LOG, concat_size, priceNumber)
+                        price, size, zaiko, fil, fil2, fil3 = ScrapeGeneral.scrape("ACNE", cg, scraper, url, LOG, concat_size, priceNumber)
                         print(f"{price} {size} {zaiko}")
                         success = True
                         break

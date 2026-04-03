@@ -75,22 +75,51 @@ class Scraper:
         try:
             print("OPEN")
             self.driver.get(URL)
+
+            wait = WebDriverWait(self.driver, 15)
+
+            # DOMロード
+            wait.until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
+
+            # body が可視
+            wait.until(
+                lambda d: d.find_element(By.TAG_NAME, "body").is_displayed()
+            )
+
+            # viewport 正常
+            width = self.driver.execute_script("return window.innerWidth")
+            height = self.driver.execute_script("return window.innerHeight")
+            if width == 0 or height == 0:
+                raise Exception("Viewport is invalid")
+
+            # window 生存確認
+            _ = self.driver.current_url
+
             print("OPEN DONE")
+
         except Exception as e:
-            print("OPEN ERROR COUGHT")            
-            errMessage = str(e)
-            print(f"ERROR MESSAGE[{errMessage}]")
-            if "ERR_NAME_NOT_RESOLVED" in errMessage:
-                print("DNS ERROR FOUND, WILL RETURN")
-                return "ERR_NAME_NOT_RESOLVED"
-            print(f"Error has occured at open URL {e}")
-            print("driver reset")
-            self.driver = webdriver.Chrome(service=self.service,options=self.options)
-            print("TRY OPEN AGAIN")
+            print("OPEN ERROR CAUGHT")
+            print(f"ERROR MESSAGE[{e}]")
+
+            try:
+                self.driver.quit()
+            except:
+                pass
+
+            self.driver = webdriver.Chrome(
+                service=self.service,
+                options=self.options
+            )
+
+            print("RETRY OPEN")
             self.driver.get(URL)
-            print("TRY OPEN AGAIN DONE")
-        self.driver.implicitly_wait(default_wait)
-        print ("OK RETURN")
+
+            WebDriverWait(self.driver, 15).until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
+
         return "OK"
     def setWait(self, s):
         self.driver.implicitly_wait(s)
@@ -123,7 +152,10 @@ class Scraper:
         ele.clear()
         ele.send_keys(value)
     def click_button(self, xpath):
-        ele = self.driver.find_element(By.XPATH, xpath)
+        #ele = self.driver.find_element(By.XPATH, xpath)
+        ele = WebDriverWait(self.driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, xpath))
+        )
         ele.click()
         self.driver.implicitly_wait(10)
     def wait(self, n):

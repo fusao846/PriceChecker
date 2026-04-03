@@ -2,7 +2,7 @@
   "LOEWE_wait_sec": 3,
   "debug_mode": "true",
   "chrome_x": 0,
-  "chrome_y": 400,
+  "chrome_y": 200,
   "error_wait": 600,
   "lv_max": 350,
   "lv_sleep": 1200,

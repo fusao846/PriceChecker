@@ -1,6 +1,10 @@
 [
   {
     "name": "BALENCIAGA",
+    "ngword": [
+      "お探しのページが見つかりませんでした",
+      "新着アイテム"
+    ],
     "accept": {
       "key": "id",
       "value": "onetrust-accept-btn-handler"
@@ -224,7 +228,7 @@
     },
     "price": {
       "key": "xpath",
-      "value": "//*[normalize-space(text())='ショッピングバッグに追加']"
+      "value": "//*[normalize-space(text())='ショッピングバッグに追加'] | //*[normalize-space(text())='サイズを選択する']"
     },
     "size_select": {
       "key": "xpath",

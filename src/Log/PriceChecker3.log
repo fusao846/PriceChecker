@@ -1,125 +1,24 @@
-[26/04/03 17:58:33]Start version=v1.32
-[26/04/03 17:58:33][DEBUG]init
-[26/04/03 17:59:07][DEBUG]OKClick
-[26/04/03 17:59:07][DEBUG]URL:https://www.gucci.com/jp/ja/pr/men/ready-to-wear-for-men/t-shirts-and-polo-shirts-for-men/polo-shirts-for-men/cotton-piquet-polo-shirt-with-embroidery-p-742380XJGKU3254
-[26/04/03 17:59:07][DEBUG]URL:https://www.gucci.com/jp/ja/pr/men/shoes-for-men/sandals-slides-for-men/mens-slide-sandal-with-buckles-p-831830FAD718746
-[26/04/03 17:59:07][DEBUG]URL:https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/new-in/%E3%83%95%E3%83%A5%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AA%E3%82%B9%E3%83%88-%E3%82%AD%E3%83%A3%E3%83%83%E3%83%88-%E3%83%91%E3%82%BA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0-%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB_%E3%82%A8%E3%83%B3%E3%83%96%E3%83%AD%E3%82%A4%E3%83%80%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%83%E3%83%88and%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%95_/A510S21XD2-0157.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/new-in/%E3%83%91%E3%83%B3%E3%82%BF-%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC_%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%95_/C643Z40XAK-1100.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
-[26/04/03 17:59:07][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
-[26/04/03 17:59:07][DEBUG]URL:https://www.moncler.com/it-it/uomo/capispalla/piumini-corti/piumino-corto-citala-celeste-J20911A000745396L71G.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.moncler.com/it-it/uomo/ready-to-wear/felpe/felpa-con-patch-sci-bianco-J20918G00016899V4034.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.maisonmargiela.com/ja-jp/%E3%83%AC%E3%83%81%E3%82%AF%E3%83%A9-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%83%95%E3%83%A9%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-SA1VX0019P8313T6290.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.maisonmargiela.com/ja-jp/4%E3%82%B9%E3%83%86%E3%83%83%E3%83%81--%E3%82%B8%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-SA1VX0019P4455T2186.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man
-[26/04/03 17:59:07][DEBUG]URL:https://www.acnestudios.com/jp/ja/wool-fringe-scarf-blue/CA0378-AAN.html?g=man
-[26/04/03 17:59:07][DEBUG]URL:https://www.acnestudios.com/jp/ja/logo-scarf---wide-black-white/CA0398-J83.html?g=man
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89-%E3%83%90%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6941662AAOD1074.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/rodeo-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225872ABLV1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%83%A9%E3%83%BC%E3%82%B8-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6405352AAOD1074.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-5943152AAOD1074.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%83%E3%83%89-5943152AAOD1065.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/rodeo-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225942ABLV1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/rodeo-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225872ABLV1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/rodeo-%E3%83%9F%E3%83%8B-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225922ABLV1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6758352AAOD1074.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/monaco-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%82%B0%E3%83%AC%E3%83%BC-7665692AA0W1108.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/monaco-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%82%B0%E3%83%AC%E3%83%BC-7665752AA0W1108.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/monaco-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%82%B0%E3%83%AC%E3%83%BC-7665472AA0W1108.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5945492ABKU1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%83%A9%E3%83%BC%E3%82%B8-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-6405352ABKU1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5943092ABKU1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5943152ABKU1000.html
-[26/04/03 17:59:07][DEBUG]URL:https://www.balenciaga.com/ja-jp/cash-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-6758352ABKU1000.html
-[26/04/03 17:59:08][DEBUG]scraper constructed 1
-[26/04/03 17:59:08][DEBUG]scrape GUCCI start
-[26/04/03 17:59:11][DEBUG]open done OK
-[26/04/03 17:59:15][DEBUG]https://www.gucci.com/jp/ja/pr/men/ready-to-wear-for-men/t-shirts-and-polo-shirts-for-men/polo-shirts-for-men/cotton-piquet-polo-shirt-with-embroidery-p-742380XJGKU3254 NOTFOUND
-[26/04/03 17:59:15][DEBUG]scrape GUCCI start
-[26/04/03 17:59:16][DEBUG]open done OK
-[26/04/03 17:59:21][DEBUG]https://www.gucci.com/jp/ja/pr/men/shoes-for-men/sandals-slides-for-men/mens-slide-sandal-with-buckles-p-831830FAD718746 NOTFOUND
-[26/04/03 17:59:21][DEBUG]scrape LOEWE start
-[26/04/03 17:59:23][DEBUG]open done OK
-[26/04/03 17:59:27][DEBUG]https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/new-in/%E3%83%95%E3%83%A5%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AA%E3%82%B9%E3%83%88-%E3%82%AD%E3%83%A3%E3%83%83%E3%83%88-%E3%83%91%E3%82%BA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0-%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB_%E3%82%A8%E3%83%B3%E3%83%96%E3%83%AD%E3%82%A4%E3%83%80%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%83%E3%83%88and%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%95_/A510S21XD2-0157.html 0
-[26/04/03 17:59:29][DEBUG]scrape LOEWE start
-[26/04/03 17:59:30][DEBUG]open done OK
-[26/04/03 17:59:32][DEBUG]https://www.loewe.com/jap/ja/%E3%83%A1%E3%83%B3%E3%82%BA/new-in/%E3%83%91%E3%83%B3%E3%82%BF-%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC_%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%95_/C643Z40XAK-1100.html 0
-[26/04/03 17:59:34][DEBUG]scrape BERLUTI start
-[26/04/03 17:59:37][DEBUG]open done OK
-[26/04/03 17:59:37][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 233200
-[26/04/03 18:00:05][DEBUG]scrape BERLUTI start
-[26/04/03 18:00:08][DEBUG]open done OK
-[26/04/03 18:00:12][DEBUG]https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
-[26/04/03 18:00:14][DEBUG]scrape MONCLER start
-[26/04/03 18:00:19][DEBUG]open done OK
-[26/04/03 18:00:22][DEBUG]https://www.moncler.com/it-it/uomo/capispalla/piumini-corti/piumino-corto-citala-celeste-J20911A000745396L71G.html NOTFOUND
-[26/04/03 18:00:22][DEBUG]scrape MONCLER start
-[26/04/03 18:00:26][DEBUG]open done OK
-[26/04/03 18:00:31][DEBUG]https://www.moncler.com/it-it/uomo/ready-to-wear/felpe/felpa-con-patch-sci-bianco-J20918G00016899V4034.html NOTFOUND
-[26/04/03 18:00:31][DEBUG]scrape MARGIELA start
-[26/04/03 18:00:34][DEBUG]open done OK
-[26/04/03 18:00:42][DEBUG]https://www.maisonmargiela.com/ja-jp/%E3%83%AC%E3%83%81%E3%82%AF%E3%83%A9-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%83%95%E3%83%A9%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-SA1VX0019P8313T6290.html 91300
-[26/04/03 18:00:47][DEBUG]scrape MARGIELA start
-[26/04/03 18:00:49][DEBUG]open done OK
-[26/04/03 18:00:57][DEBUG]https://www.maisonmargiela.com/ja-jp/4%E3%82%B9%E3%83%86%E3%83%83%E3%83%81--%E3%82%B8%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-SA1VX0019P4455T2186.html 91300
-[26/04/03 18:01:02][DEBUG]scrape ACNE start
-[26/04/03 18:01:04][DEBUG]open done OK
-[26/04/03 18:01:05][DEBUG]https://www.acnestudios.com/jp/ja/wool-fringe-scarf-dark-grey/CA0378-AA3.html?g=man 56100
-[26/04/03 18:01:07][DEBUG]scrape ACNE start
-[26/04/03 18:01:10][DEBUG]open done OK
-[26/04/03 18:01:11][DEBUG]https://www.acnestudios.com/jp/ja/wool-fringe-scarf-blue/CA0378-AAN.html?g=man 56100
-[26/04/03 18:01:13][DEBUG]scrape ACNE start
-[26/04/03 18:01:15][DEBUG]open done OK
-[26/04/03 18:01:16][DEBUG]https://www.acnestudios.com/jp/ja/logo-scarf---wide-black-white/CA0398-J83.html?g=man 49500
-[26/04/03 18:01:18][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:24][DEBUG]open done OK
-[26/04/03 18:01:25][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89-%E3%83%90%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6941662AAOD1074.html 460900
-[26/04/03 18:01:25][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:28][DEBUG]open done OK
-[26/04/03 18:01:32][DEBUG]https://www.balenciaga.com/ja-jp/rodeo-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225872ABLV1000.html 58300
-[26/04/03 18:01:34][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:39][DEBUG]open done OK
-[26/04/03 18:01:41][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%83%A9%E3%83%BC%E3%82%B8-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6405352AAOD1074.html 460900
-[26/04/03 18:01:41][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:45][DEBUG]open done OK
-[26/04/03 18:01:47][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-5943152AAOD1074.html 460900
-[26/04/03 18:01:47][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:50][DEBUG]open done OK
-[26/04/03 18:01:52][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%83%E3%83%89-5943152AAOD1065.html 460900
-[26/04/03 18:01:52][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:01:54][DEBUG]open done OK
-[26/04/03 18:01:59][DEBUG]https://www.balenciaga.com/ja-jp/rodeo-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225942ABLV1000.html 84700
-[26/04/03 18:02:01][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:02][DEBUG]open done OK
-[26/04/03 18:02:07][DEBUG]https://www.balenciaga.com/ja-jp/rodeo-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225872ABLV1000.html 58300
-[26/04/03 18:02:09][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:10][DEBUG]open done OK
-[26/04/03 18:02:15][DEBUG]https://www.balenciaga.com/ja-jp/rodeo-%E3%83%9F%E3%83%8B-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-8225922ABLV1000.html 105600
-[26/04/03 18:02:17][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:20][DEBUG]open done OK
-[26/04/03 18:02:22][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC-6758352AAOD1074.html 460900
-[26/04/03 18:02:22][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:26][DEBUG]open done OK
-[26/04/03 18:02:29][DEBUG]https://www.balenciaga.com/ja-jp/monaco-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%82%B0%E3%83%AC%E3%83%BC-7665692AA0W1108.html 460900
-[26/04/03 18:02:29][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:33][DEBUG]open done OK
-[26/04/03 18:02:35][DEBUG]https://www.balenciaga.com/ja-jp/monaco-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%82%B0%E3%83%AC%E3%83%BC-7665752AA0W1108.html 460900
-[26/04/03 18:02:35][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:40][DEBUG]open done OK
-[26/04/03 18:02:42][DEBUG]https://www.balenciaga.com/ja-jp/monaco-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%82%B0%E3%83%AC%E3%83%BC-7665472AA0W1108.html 460900
-[26/04/03 18:02:42][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:46][DEBUG]open done OK
-[26/04/03 18:02:49][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5945492ABKU1000.html 460900
-[26/04/03 18:02:49][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:50][DEBUG]open done OK
-[26/04/03 18:02:55][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%83%A9%E3%83%BC%E3%82%B8-%E3%83%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%82%A4%E3%83%B3and%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-6405352ABKU1000.html 48400
-[26/04/03 18:02:57][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:02:59][DEBUG]open done OK
-[26/04/03 18:03:03][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5943092ABKU1000.html 42900
-[26/04/03 18:03:05][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:03:07][DEBUG]open done OK
-[26/04/03 18:03:11][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%87%E3%83%83%E3%83%89%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-5943152ABKU1000.html 69300
-[26/04/03 18:03:13][DEBUG]scrape BALENCIAGA start
-[26/04/03 18:03:15][DEBUG]open done OK
-[26/04/03 18:03:19][DEBUG]https://www.balenciaga.com/ja-jp/cash-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC--%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-6758352ABKU1000.html 38500
-[26/04/03 18:04:49][DEBUG]exit
+[26/04/08 22:13:01]Start version=v1.32
+[26/04/08 22:13:01][DEBUG]init
+[26/04/08 22:14:04][DEBUG]OKClick
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=ML6&to=4#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=4&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru/S5438-V33.html?dwvar_S5438-V33_color=KH1&to=5#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=5&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukurittoreza-sandaru/S5439-BB6.html?dwvar_S5439-BB6_color=G58&to=6#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=6&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shifunosu-sukuritto-rezasandaru-bureidoditeru/S5439-V33.html?dwvar_S5439-V33_color=ML6&to=7#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=7&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/shadou-rezasandaru/S6261-V2.html?dwvar_S6261-V2_color=ML6&to=8#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=8&start=1
+[26/04/08 22:14:04][DEBUG]URL:https://www.berluti.com/ja-jp/to-ujuru-sofuto-jippubaggu-reza-toraberubaggu/ZIPPED_BAG-V81.html?dwvar_ZIPPED__BAG-V81_color=MM5&to=1#viewtype=grid-view-small&sz=192&to=1&start=1
+[26/04/08 22:14:04][DEBUG]URL:None
+[26/04/08 22:14:07][DEBUG]scraper constructed 1
+[26/04/08 22:14:07][DEBUG]scrape BERLUTI start
+[26/04/08 22:14:08][DEBUG]open done OK
+[26/04/08 22:14:13][DEBUG]https://www.berluti.com/ja-jp/cyrus-omankafurezasurippa/S3786-C6.html?dwvar_S3786-C6_color=M26&to=1#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=1&start=1 NOTFOUND
+[26/04/08 22:14:15][DEBUG]scrape BERLUTI start
+[26/04/08 22:14:15][DEBUG]open done OK
+[26/04/08 22:14:22][DEBUG]https://www.berluti.com/ja-jp/sairasu-sukurittoreza-surippa/S3786-V2.html?dwvar_S3786-V2_color=KD4&to=2#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=2&start=1 NOTFOUND
+[26/04/08 22:14:24][DEBUG]scrape BERLUTI start
+[26/04/08 22:14:24][DEBUG]open done OK
+[26/04/08 22:14:31][DEBUG]https://www.berluti.com/ja-jp/shadou-rezasandaru/S6259-BB0.html?dwvar_S6259-BB0_color=KH3&to=3#prefn1=product_online_sales&prefv1=true&viewtype=grid-view-small&sz=12&to=3&start=1 NOTFOUND
+[26/04/08 22:15:16][DEBUG]exit
